@@ -133,6 +133,9 @@ section#sobre{
 section#habilidade{
   margin-left:300px
 }
+section#curriculo{
+  margin-left:300px
+}
 *::-webkit-scrollbar {
   width: 10px;
 }
@@ -158,4 +161,42 @@ a {
 }
 .nav-link:hover{
   color:#035700
+}
+.cv .cv-title{
+  font-weight:700;
+  margin-top:20px;
+  margin-bottom:20px;
+  color: #050d18;
+}
+.cv .cv-item{
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 3px solid #00bb1f;
+  position: relative;
+}
+.cv .cv-item h4 {
+  line-height: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+.cv .cv-item h5{
+  background: white;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.cv .cv-item::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left:-9px;
+  width: 16px;
+  height: 18px;
+  border: 2px solid #00bb1f;
+  background: white;
+  border-radius: 50%;
 }
