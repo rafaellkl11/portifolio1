@@ -139,6 +139,9 @@ section#curriculo{
 section#portifolio{
   margin-left:300px
 }
+section#contato{
+  margin-left:300px
+}
 *::-webkit-scrollbar {
   width: 10px;
 }
